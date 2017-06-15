@@ -2,5 +2,5 @@
 This is a simple and incomplete version of a pokedex made with python (tkinter module).
 
 <img src ="https://github.com/BrunoVieiraDutra/Pokedex/blob/master/Images/Pk_marota.png?raw=true" alt="PK_marota" />
-<br/><br/>
-<img src ="https://github.com/BrunoVieiraDutra/Pokedex/blob/master/Images/Pk_marota_eeve.png?raw=true" alt="PK_marota_eeve" />
+<br/><br/><hr>
+<img src ="https://github.com/BrunoVieiraDutra/Pokedex/blob/master/Images/Pk_marota_eeve.png?raw=true" alt="PK_marota_eeve" align = "center" />
