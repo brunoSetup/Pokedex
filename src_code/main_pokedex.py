@@ -9,7 +9,7 @@ import tkinter
 
 
 
-root = Tk() # create tkinter window
+root = Tk() # Cria a Janela tkinter
 
 rootCanvas = Canvas(root)
 root.geometry("900x300")
