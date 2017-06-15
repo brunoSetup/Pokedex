@@ -3,4 +3,4 @@ This is a simple and incomplete version of a pokedex made with python (tkinter m
 
 <img src ="https://github.com/BrunoVieiraDutra/Pokedex/blob/master/Images/Pk_marota.png?raw=true" alt="PK_marota" />
 <br/><br/><hr>
-<img src ="https://github.com/BrunoVieiraDutra/Pokedex/blob/master/Images/Pk_marota_eeve.png?raw=true" alt="PK_marota_eeve" align = "center" />
+<img align="center" src ="https://github.com/BrunoVieiraDutra/Pokedex/blob/master/Images/Pk_marota_eeve.png?raw=true" alt="PK_marota_eeve"  />
