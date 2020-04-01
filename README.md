@@ -10,9 +10,12 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What you will need to have installed
-
 ```
-python3
+sudo apt-get install python3.6
+```
+```
+sudo apt-get -y install python3-pip
+pip3 install -r requirements.txt
 ```
 ## Sowing the images of pokemon
 To improve the user experience and response time, images can be downloaded in advance.
