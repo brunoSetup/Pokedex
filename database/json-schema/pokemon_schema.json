@@ -1,0 +1,37 @@
+
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "Pokemon schema",
+    "type": "object",
+    "definitions": {
+        "pokemon_info": {
+            "type": "object",
+            "comment": "This is a Pokemon",
+            "properties": {
+                "Number": {
+                    "type": "number",
+                    "minimum": 1,
+                    "maximum": 890
+                },
+                "Name": {
+                    "type": "string",
+                    "comment": "This is the name of the Pokemon."
+                },
+                "Types": {
+                    "type": "string",
+                    "comment": "All types of the Pokemon."
+                },
+                "Evolutions": {
+                    "type": "string",
+                    "comment": "All evolutions of the Pokemon."
+                },
+                "path_imagem": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "properties":{
+        
+    }
+}
