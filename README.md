@@ -14,7 +14,11 @@ What you will need to have installed
 ```
 python3
 ```
-
+## Sowing the images of pokemon
+To improve the user experience and response time, images can be downloaded in advance.
+```
+python3 seed.py seed_pokemon_images
+```
 ## Running the application 
 
 ```
