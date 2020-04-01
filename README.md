@@ -36,3 +36,13 @@ See also the list of [contributors](https://github.com/BrunoVieiraDutra/Pokedex/
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
+
+## TO:DO
+
+ - Get Pokemon Weaknesses
+  - Graphic Interface 
+  - Store the collected information in a database
+  - Improve the user experience when using the system
+  - etc
+
+
