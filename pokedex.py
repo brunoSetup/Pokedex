@@ -13,7 +13,7 @@ class Pokedex(object):
         return nome 
 
     @classmethod
-    def pegar_tipos_pokemon_via_html(self,html):
+    def pegar_tipos_pokemon_via_html(cls,html):
         try:
             soup = BeautifulSoup(html, 'html.parser')
             div_de_tipo = soup.findAll("div", {"class": "dtm-type"})[0].findAll("a")
@@ -34,7 +34,7 @@ class Pokedex(object):
             return None
 
     @classmethod
-    def pegar_evolucoes_pokemon_via_html(self,html):
+    def pegar_evolucoes_pokemon_via_html(cls,html):
         try:
             evolucoes = []
             soup = BeautifulSoup(html, 'html.parser')
@@ -62,7 +62,7 @@ class Pokedex(object):
 
 
     @classmethod
-    def baixar_imagem_pokemon_via_html(self,html):
+    def baixar_imagem_pokemon_via_html(cls,html):
         try:
             soup = BeautifulSoup(html, 'html.parser')
             imagem_tag = soup.findAll("div", {"class": "profile-images"})
@@ -84,7 +84,7 @@ class Pokedex(object):
 
 
     @classmethod
-    def pegar_atributos_pokemon_via_html(self,html):
+    def pegar_atributos_pokemon_via_html(cls,html):
         try:
             atributos = {}
             attr_order = ["","HP", "Ataque", "Defesa", "Ataque Especial", "Defesa Especial", "Velocidade"]
@@ -99,7 +99,7 @@ class Pokedex(object):
             return None
     
     @classmethod
-    def pegar_mega_evolucao_via_html(self,URL_POKEMON, html):
+    def pegar_mega_evolucao_via_html(cls,URL_POKEMON, html):
         try:
             from selenium import webdriver
             import warnings
