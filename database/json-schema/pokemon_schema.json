@@ -1,8 +1,6 @@
 
 {
     "$schema": "http://json-schema.org/schema#",
-    "title": "Pokemon schema",
-    "type": "object",
     "definitions": {
         "pokemon_info": {
             "type": "object",
@@ -28,10 +26,14 @@
                 "path_imagem": {
                     "type": "string"
                 }
-            }
+            },
+            "required": ["Number", "Name", "Types", "path_image"]
         }
     },
+
+    "title": "Pokemon schema",
+    "type": "object",
     "properties":{
-        
+        "Pokemon": {"$ref": "#/definitions/pokemon_info"}  
     }
 }
